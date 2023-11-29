@@ -1,0 +1,15 @@
+//Install python v3.0.0 or above
+
+
+//Run the following commands in Windows PowerShell for setup
+
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+
+
+// Run the following commands for running the program
+
+.\venv\Scripts\Activate.ps1
+python WPQ.py
